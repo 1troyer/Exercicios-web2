@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">Trabalhos Web</a>
+            <ul class="navlist">
+                <li><a href="contVogal.html">Contagem de Vogais</a></li>
+                <li><a href="checkPrimo.html">Check primo</a></li>
+                <li><a href="Balao.html">Balao</a></li>
+            </ul>
+            <form class="pesquisa">
+                <button class="butDarkmode" type="submit">DARK MODE</button>
+            </form>
+        </nav>
+    </header>
+
+    <div id="caixaPrim">
+        <h1 style="margin-bottom:20px ;">Verificador de Números Primos</h1>
+        <input type="number" id="numInput" placeholder="Digite um número" />
+        <button onclick="checkNumInput()" id="verifyNum">Verificar</button>
+        <p id="result" style="text-align: center; font-size: 40px; margin-top: 10px;"></p>
+    </div>
+    
+        <script src="script.js"></script>
+    </body>
+    
+    
+</body>
+</html>
